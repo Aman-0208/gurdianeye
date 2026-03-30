@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.production
+
+# Python
+ai_service/venv/
+ai_service/__pycache__/
+*.pyc
+*.pyo
+
+# YOLO model weights (large binary files)
+*.pt
+*.onnx
+
+# Uploaded videos (temporary files)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build output
+client/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
